@@ -1,3 +1,3 @@
-# NCSU
+# Codes
 
-I will add different course materials in this repository. 
+I will add different codes, files and other materials in this repository. 
