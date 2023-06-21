@@ -6,7 +6,7 @@ append using "C:\Users\abdul\abdullahamir52\NCSU\2nd year\3rd semester\730 Labor
 append using "C:\Users\abdul\abdullahamir52\NCSU\2nd year\3rd semester\730 Labor\Homework 1 - Gruber Replication\cpsmay77.dta"
 append using "C:\Users\abdul\abdullahamir52\NCSU\2nd year\3rd semester\730 Labor\Homework 1 - Gruber Replication\cpsmay78.dta"
 run var_name_change
-
+ 
 keep if (x9 == 33 | x9 == 31 | x9 == 32 | x9 == 22 | x9 == 21 | x9 == 12 | x9 == 11 | x9 == 53)
 label define state_name 33 "Illinois33" 31 "Ohio31" 32 "Indiana32" 22 "New Jersey22" 21 "New York21" 12 "Connecticut12" 11 "Massachusetts11" 53 "North Carolina53"
 label values x9 state_name
